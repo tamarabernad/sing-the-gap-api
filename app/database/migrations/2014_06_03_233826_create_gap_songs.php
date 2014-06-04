@@ -13,18 +13,23 @@ class CreateGapSongs extends Migration {
 	public function up()
 	{
 		//
-		/*
+		
 		Schema::create('gap_songs', function (Blueprint $table) {
-            $table->engine = 'MyISAM';
-            $table->string('iata_code', 3)->primary();
-            $table->string('name', 128);
-            $table->string('country', 128);
-            $table->string('area', 128);
-            $table->string('city', 128);
-            $table->boolean('is_partner');
+
+			$table->engine = 'MyISAM';
+			$table->increments('id');
+			$table->string('title', 128);
+			$table->string('categories', 128);
+			$table->nullableTimestamps();
+			$table->string('gaps', 128);
+			$table->integer('gap_duration');
+			$table->integer('gap_num_characters');
+			$table->string('gap_song_url', 128);
+			$table->string('inAppId_iOS', 128);
+			$table->string('inAppId_Android', 128);
+			$table->integer('price');
         });
-        DB::statement('ALTER TABLE `airports` ADD `coordinate` POINT AFTER `name`;');
-        */
+        
 	}
 
 	/**
@@ -35,6 +40,7 @@ class CreateGapSongs extends Migration {
 	public function down()
 	{
 		//
+		Schema::drop('gap_songs');
 	}
 
 }
