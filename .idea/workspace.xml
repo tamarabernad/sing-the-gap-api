@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="728e9b44-f6b6-4c96-ba38-fd9cbee59562" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/GapSongsTableSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/GapSongsTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="sing-the-gap-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="465">
+            <state line="27" column="18" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.3978389" vertical-offset="0" max-vertical-offset="1018">
               <folding />
             </state>
           </provider>
@@ -71,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GapSongsTableSeeder.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GapSongsTableSeeder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/GapSongsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="1032">
+            <state line="48" column="0" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -94,11 +93,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_03_233826_create_gap_songs.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_05_152036_add_locale_to_gap_songs.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_05_152118_add_locale_to_gap_songs.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/database/seeds/GapSongsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -356,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="2051" selection-end="2051" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_05_152118_add_locale_to_gap_songs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
@@ -393,7 +385,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/GapSongsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="1032">
+        <state line="48" column="0" selection-start="1355" selection-end="1355" vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.3978389" vertical-offset="0" max-vertical-offset="1018">
           <folding />
         </state>
       </provider>

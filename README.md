@@ -23,3 +23,17 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+#Before You begin:
+#composer install
+#composer update
+
+#Running All Outstanding Migrations
+#php artisan migrate
+
+#Rollback The Last Migration Operation
+#php artisan migrate:rollback
+
+#Seed the Database
+#php artisan db:seed
