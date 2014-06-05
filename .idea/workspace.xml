@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="728e9b44-f6b6-4c96-ba38-fd9cbee59562" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sing-the-gap-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.3978389" vertical-offset="0" max-vertical-offset="1018">
+            <state line="34" column="10" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.50098234" vertical-offset="0" max-vertical-offset="1018">
               <folding />
             </state>
           </provider>
@@ -392,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.3978389" vertical-offset="0" max-vertical-offset="1018">
+        <state line="34" column="10" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.50098234" vertical-offset="0" max-vertical-offset="1018">
           <folding />
         </state>
       </provider>
