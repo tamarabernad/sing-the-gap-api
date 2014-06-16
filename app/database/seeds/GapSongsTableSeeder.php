@@ -23,6 +23,7 @@ class GapSongsTableSeeder extends Seeder {
 		$faker->addProvider(new Faker\Provider\Uuid($faker));
 		
 		$array = array('kids','happy','love','fun','mean','sexy');
+        $genders = array('male','female');
 		$this->command->info(implode($array));
 		for( $x=0 ; $x<$count; $x++ )
     	{
@@ -40,7 +41,8 @@ class GapSongsTableSeeder extends Seeder {
     			'inAppId_iOS'=> $faker->uuid,
     			'inAppId_Android'=> $faker->uuid,
     			'price'=> $faker->numberBetween(0,100),
-                'markers'=> $faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000)
+                'markers'=> $faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000),
+                'type'=>$faker->randomElements($genders, 1)[0]
     		));
     	}
 	}
