@@ -16,4 +16,8 @@
 //	return View::make('hello');
 //});
 
-Route::get('gap-songs', 'GapSongsController@getAll');
+
+Route::group(array('prefix' => 'v1'), function()
+{
+    Route::get('gap-songs', 'GapSongsController@getAll');
+});

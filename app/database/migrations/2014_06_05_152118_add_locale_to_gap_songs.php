@@ -28,10 +28,13 @@ class AddLocaleToGapSongs extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('gap_songs', function(Blueprint $table)
-		{
-			//
-		});
+        Schema::table('gap_songs', function(Blueprint $table)
+        {
+            //
+            $table->renameColumn('gap_song_file', 'gap_song_url');
+            $table->renameColumn('title_es', 'title');
+            $table->dropColumn('title_en');
+        });
 	}
 
 }

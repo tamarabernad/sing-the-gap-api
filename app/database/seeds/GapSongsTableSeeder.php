@@ -34,13 +34,13 @@ class GapSongsTableSeeder extends Seeder {
     			'title_en' => $faker->name,
                 'title_es' => $faker->name,
     			'categories'=> $catStr,
-    			'gaps' => $faker->numberBetween(1, 4),
     			'gap_duration' => $faker->numberBetween(500,2000),
     			'gap_num_characters' => $faker->numberBetween(5,20),
     			'gap_song_file'=> $faker->url,
     			'inAppId_iOS'=> $faker->uuid,
     			'inAppId_Android'=> $faker->uuid,
-    			'price'=> $faker->numberBetween(0,100)
+    			'price'=> $faker->numberBetween(0,100),
+                'markers'=> $faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000)."|".$faker->numberBetween(500,5000)
     		));
     	}
 	}
