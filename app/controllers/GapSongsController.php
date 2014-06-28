@@ -40,4 +40,26 @@ class GapSongsController extends BaseController
 
         return Response::json($gapSongsRes);
     }
+
+    public function getWithId($id){
+        
+        $gapSong = GapSong::find($id);
+
+        $categories = explode("|", $gapSong->categories);
+        $markers = explode("|", $gapSong->markers);
+        $gapSongRes = array(
+                "uid"=>$gapSong->id,
+                "title" => $gapSong->title_es,
+                "url" => $gapSong->gap_song_file,
+                "characters" => $gapSong->gap_num_characters,
+                "duration"=> $gapSong->gap_duration,
+                "price"=>$gapSong->price,
+                "markers"=>$markers,
+                "categories"=>$categories
+        );
+        
+        return Response::json($gapSongRes);
+    }
+
+
 }

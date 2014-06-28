@@ -20,4 +20,5 @@
 Route::group(array('prefix' => 'v1'), function()
 {
     Route::get('gap-songs', 'GapSongsController@getAll');
+    Route::get('gap-songs/{id}', 'GapSongsController@getWithId');
 });
